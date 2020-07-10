@@ -22,4 +22,7 @@ public class Customer {
 		scan.close();
 		return mi;
 	}
+	public void drinkCoffee(Coffee coffee) {
+		System.out.printf("%s를 마신다.",coffee.getName());
+	}
 }

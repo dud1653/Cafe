@@ -8,8 +8,7 @@ public class Cafe {
 		
 		MenuItem choiceMenu = cus.order(menu);
 		Coffee coffee = bas.makeCoffee(choiceMenu);
-		System.out.println(coffee);
 		
-		
+		cus.drinkCoffee(coffee);
 	}
 }
